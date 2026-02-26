@@ -79,7 +79,7 @@ export default function BottomNav() {
             title={item.label}
           >
             <Icon 
-              // @ts-ignore
+              // @ts-ignores
               isActive={isActive}
               className={`h-6 w-6 transition-transform duration-200 ${
                 isActive && !isCreate ? "fill-white" : ""
