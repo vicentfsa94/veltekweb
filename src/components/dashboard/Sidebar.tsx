@@ -97,7 +97,7 @@ export default function Sidebar() {
   const pathname = usePathname();
 
   return (
-    <aside className="sticky top-0 h-screen w-[72px] hidden md:flex flex-col items-center bg-transparent py-4 z-50">
+    <aside className="fixed left-0 top-0 h-full w-[74px] hidden md:flex flex-col items-center bg-transparent py-4 z-50">
       <div className="mb-8 flex h-12 w-12 items-center justify-center rounded-full hover:bg-white/10 transition-colors">
         <div className="flex h-8 w-8 items-center justify-center">
           <svg aria-label="Threads" className="text-white h-full w-full" fill="currentColor" role="img" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">

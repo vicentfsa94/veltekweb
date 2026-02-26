@@ -9,7 +9,7 @@ export default function DashboardLayout({
   return (
     <div className="flex min-h-screen bg-[#0a0a0a] text-white">
       <Sidebar />
-      <main className="flex-1 overflow-y-auto pb-[60px] md:pb-0">{children}</main>
+      <main className="flex-1 md:pl-[72px] pb-[60px] md:pb-0">{children}</main>
       <BottomNav />
     </div>
   );

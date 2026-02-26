@@ -1,6 +1,6 @@
 export default function DashboardPage() {
   return (
-    <div className="flex h-full flex-col p-8">
+    <div className="flex min-h-max flex-col p-8">
       <header className="mb-8">
         <h1 className="text-3xl font-bold">Dashboard</h1>
         <p className="mt-2 text-neutral-400">
@@ -21,9 +21,24 @@ export default function DashboardPage() {
         ))}
       </div>
       
-      <div className="mt-8 flex-1 rounded-xl border border-neutral-800 bg-neutral-900/30 p-8">
-        <div className="flex h-full items-center justify-center rounded-lg border border-dashed border-neutral-700 bg-neutral-900/20">
-          <p className="text-neutral-500">Main Content Area</p>
+      <div className="mt-8 min-h-[400px] rounded-xl border border-neutral-800 bg-neutral-900/30 p-8">
+        <div className="flex min-h-[300px] items-center justify-center rounded-lg border border-dashed border-neutral-700 bg-neutral-900/20">
+          <p className="text-neutral-500">Main Content Area 1</p>
+        </div>
+      </div>
+      <div className="mt-8 min-h-[400px] rounded-xl border border-neutral-800 bg-neutral-900/30 p-8">
+        <div className="flex min-h-[300px] items-center justify-center rounded-lg border border-dashed border-neutral-700 bg-neutral-900/20">
+          <p className="text-neutral-500">Main Content Area 2</p>
+        </div>
+      </div>
+      <div className="mt-8 min-h-[400px] rounded-xl border border-neutral-800 bg-neutral-900/30 p-8">
+        <div className="flex min-h-[300px] items-center justify-center rounded-lg border border-dashed border-neutral-700 bg-neutral-900/20">
+          <p className="text-neutral-500">Main Content Area 3</p>
+        </div>
+      </div>
+      <div className="mt-8 min-h-[400px] rounded-xl border border-neutral-800 bg-neutral-900/30 p-8">
+        <div className="flex min-h-[300px] items-center justify-center rounded-lg border border-dashed border-neutral-700 bg-neutral-900/20">
+          <p className="text-neutral-500">Main Content Area 4</p>
         </div>
       </div>
     </div>
